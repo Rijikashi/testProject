@@ -1,0 +1,39 @@
+@import 'base';
+
+#create-email-form {
+	width: 75%;
+	margin-top: 20px;
+	margin: auto;
+	padding: 20px;
+}
+
+.form-section-title {
+	color: $uni-background;
+}
+
+.email-elements-container {
+	width: 75%;
+}
+#result-email {
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 0;
+}
+#emergency-contact-modal {
+	.modal-header {
+		background-color: $red-warning;
+	}
+}
+#template-form-body {
+	max-height: 70vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.form-modal-division {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#email-btn-container {
+	margin-bottom: 20px;
+}
